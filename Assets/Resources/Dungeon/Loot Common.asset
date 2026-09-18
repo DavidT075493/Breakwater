@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa41e13f16a059542b7ee0620275a9aa, type: 3}
+  m_Name: Loot Common
+  m_EditorClassIdentifier: Assembly-CSharp::LootTable
+  lootEntries:
+  - item: {fileID: 11400000, guid: fe1fc19b079e8154b880fcc5d4790808, type: 2}
+    altItems:
+    - {fileID: 11400000, guid: 4fb98b5bd5b06b141bae1da2906b15e0, type: 2}
+    - {fileID: 11400000, guid: 628f80dc446078948a168bd009858dc3, type: 2}
+    - {fileID: 11400000, guid: 5d04aa49dd1217f4cb18cfe6f1f5760a, type: 2}
+    - {fileID: 11400000, guid: cd9638fd39de10f498034095c05dff3f, type: 2}
+    rarityWeight: 50
+    onePerChest: 0
+    minCount: 1
+    maxCount: 2
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 5a0886c2dbba13e45aa6bdb233e1eaf2, type: 2}
+    altItems:
+    - {fileID: 11400000, guid: f71049c9d01b06d42b74b561c36c681f, type: 2}
+    rarityWeight: 15
+    onePerChest: 0
+    minCount: 9
+    maxCount: 15
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 568464e8ef96c70439f0a667cfecbee0, type: 2}
+    altItems: []
+    rarityWeight: 15
+    onePerChest: 0
+    minCount: 2
+    maxCount: 4
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: e86bd720b78356b448b9623dc34eb168, type: 2}
+    altItems: []
+    rarityWeight: 23
+    onePerChest: 0
+    minCount: 6
+    maxCount: 12
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 5bfdfd14f4f89cb45b21dfe62ad829a9, type: 2}
+    altItems:
+    - {fileID: 11400000, guid: 98f943c7888de854bb3a4b8402893548, type: 2}
+    - {fileID: 11400000, guid: 528ecc1d99bba344f93de43e1518a05b, type: 2}
+    rarityWeight: 12
+    onePerChest: 0
+    minCount: 1
+    maxCount: 1
+    minDurability: 0.7
+    maxDurability: 0.9
+  - item: {fileID: 11400000, guid: 4fd4e1c128c8f8d4c87e34cfcebf38e6, type: 2}
+    altItems: []
+    rarityWeight: 20
+    onePerChest: 0
+    minCount: 1
+    maxCount: 3
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 6ef2784a728b33a49b27fdb7b5ed9ff9, type: 2}
+    altItems: []
+    rarityWeight: 5
+    onePerChest: 0
+    minCount: 1
+    maxCount: 3
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 3707f34b5e1f6ee43a0a1bfc8744f27e, type: 2}
+    altItems: []
+    rarityWeight: 25
+    onePerChest: 0
+    minCount: 3
+    maxCount: 5
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: fc154af44a40ed0449ec50ecdf877b84, type: 2}
+    altItems: []
+    rarityWeight: 17
+    onePerChest: 0
+    minCount: 3
+    maxCount: 5
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: a94cff914a003c74fbaf66635eb2c86c, type: 2}
+    altItems: []
+    rarityWeight: 5
+    onePerChest: 0
+    minCount: 1
+    maxCount: 2
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 69f707a8c8c891e45bb6ed9d67f01b16, type: 2}
+    altItems:
+    - {fileID: 11400000, guid: 5e687c1862ce3b747bd8a039b068e638, type: 2}
+    rarityWeight: 8
+    onePerChest: 1
+    minCount: 1
+    maxCount: 1
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: e2fcaa2be5c77d94799985e0950aba75, type: 2}
+    altItems:
+    - {fileID: 11400000, guid: 8275bc0c58bd4cc458666e2584bd0fa4, type: 2}
+    - {fileID: 11400000, guid: 178abb61058327e4ebd0eee0a3b36794, type: 2}
+    - {fileID: 11400000, guid: 601ec18e5789fde4d8d74f4bd8908e03, type: 2}
+    - {fileID: 11400000, guid: 764427b9fd1fdfa46999b8c831adb4d2, type: 2}
+    rarityWeight: 6
+    onePerChest: 1
+    minCount: 1
+    maxCount: 1
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: ec8cb9069294c194db38db40957fcb46, type: 2}
+    altItems: []
+    rarityWeight: 1
+    onePerChest: 1
+    minCount: 1
+    maxCount: 1
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 512366d119941524b88cae08b60e0618, type: 2}
+    altItems:
+    - {fileID: 11400000, guid: 4fb98b5bd5b06b141bae1da2906b15e0, type: 2}
+    - {fileID: 11400000, guid: 628f80dc446078948a168bd009858dc3, type: 2}
+    - {fileID: 11400000, guid: 5d04aa49dd1217f4cb18cfe6f1f5760a, type: 2}
+    - {fileID: 11400000, guid: cd9638fd39de10f498034095c05dff3f, type: 2}
+    rarityWeight: 15
+    onePerChest: 0
+    minCount: 1
+    maxCount: 1
+    minDurability: 1
+    maxDurability: 1
+  minRolls: 7
+  maxRolls: 12

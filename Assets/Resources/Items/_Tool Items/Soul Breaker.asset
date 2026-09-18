@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Soul Breaker
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: -1648770760767172745, guid: 35456b694dc34c144a833fc416af9a14,
+    type: 3}
+  naturalSpawnSprite: {fileID: -6444650250671307944, guid: 35456b694dc34c144a833fc416af9a14,
+    type: 3}
+  naturalSpawnInvisible: 0
+  itemId: soul_breaker
+  displayName: Soul Breaker
+  desc: striking an enemy will awaken the Soul Breaker, causing the next hit to deal
+    critical damage. Killing an enemy with a crit drops an extra soul.
+  matOverride: {fileID: 2100000, guid: 31f1a487d665158438dd845f3d2214b9, type: 2}
+  unlitWhenDropped: 0
+  type: 1
+  overrideRecipeLocation: 0
+  overrideRecipeItemType: 0
+  hitboxIndex: 7
+  mouseSpeed: 8
+  damage: 15
+  damageVariance: 1
+  damageNumColor: {r: 0, g: 0.8512273, b: 1, a: 1}
+  deathMessage: was broken by /p1 using /item
+  knockback: 8
+  knockbackTime: 0.1
+  overrideSwingSound: {fileID: 8300000, guid: 13cff0da638a7f5489c54730205241fd, type: 3}
+  maxStackSize: 1
+  throwForce: 11
+  holdOffset: {x: 0, y: 0.4, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Player
+  naturalSpawnFlipX: 0
+  spawnSortOrder: 11
+  soulRepairAmount: 0
+  treeDamage: 4
+  rockDamage: 3
+  toolTier: 1
+  maxDurability: 500
+  usesDurability: 1
+  durabilityEmptyItem: {fileID: 0}
+  durabilityBarColor: {r: 0.2, g: 1, b: 0, a: 1}
+  durabilityName: Durability
+  twoHanded: 0
+  scytheAnimation: 0
+  trailThicknessMult: 1
+  trailColor: {r: 0, g: 0.8509804, b: 1, a: 1}
+  disableSwordAnim: 0
+  usesTier: 1
+  tierWeights: 05000000060000000400000002000000
+  toolModifierPool:
+  - {fileID: 11400000, guid: c9178249c9ab5de4ab1cda7bdf22cb66, type: 2}
+  - {fileID: 11400000, guid: a959d0ba747ebd64cbb0842e22670781, type: 2}
+  repairWith: {fileID: 0}
+  repairAmount: 0
+  isRepairMaterial: 0
+  maxTierModifier: Can detatch the soul from targets. Damage the soul to greatly
+    damage the target
+  flippedSprite: {fileID: 0}
+  floor: 0
+  canRotate: 0
+  health: 8
+  overrideBuildDist: -1
+  interactable: 0
+  interactBoxSize: 2
+  interactAction: interact
+  exclusiveInteract: 0
+  allowOnBoat: 0
+  boatTileOffset: {x: 0, y: 0}
+  rockTile: 0
+  TileType: 0
+  floorStepSound:
+    sounds:
+    - {fileID: 0}
+    - {fileID: 0}
+    pitchRange: {x: 0.9, y: 1.05}
+    ice: 0
+  tileStates:
+  - tileSprite: {fileID: 0}
+    tileColliderIndex: 0
+    sortLayerName: Item
+    sortOrder: 3
+  growthTicks: {x: 0, y: 0}
+  wateredTicks: {x: 0, y: 0}
+  wateredAdditionalGrowth: 2
+  growthStages: []
+  resetGrowthWhenCollected: 0
+  tileDealDamage: 0
+  tileDamage: 4
+  tileKnockback: 3
+  tileDeathMessage: died
+  overrideBuildPreviewSprite: {fileID: 0}
+  onlyPlaceOnTiles: []
+  onlyPlaceOnGroundTiles: []
+  onlyPlaceAtPositions: []
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  reactorFuel: 0
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 0}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet: []
+  armorMitigationPercent: 0
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 12
+  uniqueRepairMultiplier: 1
+  ignoreDurabilityModifiers: 0
+  obfuscateRecipeDesc: 0
+  charmStatsChanged: 00000000
+  charmStatsChangedAmount: 00000000
+  charmEffect: 
+  resourceTrackerItem: {fileID: 0}

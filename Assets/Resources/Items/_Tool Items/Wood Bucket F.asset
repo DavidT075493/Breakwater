@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Wood Bucket F
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: -1523255429, guid: efcfec628e5c0ee45a6b9c02f78818b6, type: 3}
+  naturalSpawnSprite: {fileID: 0}
+  naturalSpawnInvisible: 0
+  itemId: wooden_bucket_f
+  displayName: Wooden Bucket
+  desc: used to water crops to speed up growth. can hold 8 waters
+  matOverride: {fileID: 0}
+  unlitWhenDropped: 0
+  type: 13
+  overrideRecipeLocation: 1
+  overrideRecipeItemType: 16
+  hitboxIndex: 0
+  mouseSpeed: 8
+  damage: 1
+  damageVariance: 0
+  damageNumColor: {r: 1, g: 0, b: 0, a: 1}
+  deathMessage: was killed by /p1 using /item
+  knockback: 5
+  knockbackTime: 0.1
+  maxDurability: 8
+  usesDurability: 1
+  durabilityEmptyItem: {fileID: 11400000, guid: ff1dd31c9e1dc9d4d817d4e8fa23972d,
+    type: 2}
+  durabilityBarColor: {r: 0, g: 0.60875607, b: 1, a: 1}
+  durabilityName: Water
+  twoHanded: 0
+  trailThicknessMult: 1
+  trailColor: {r: 1, g: 1, b: 1, a: 1}
+  disableSwordAnim: 0
+  overrideSwingSound: {fileID: 0}
+  maxStackSize: 1
+  throwForce: 7.5
+  holdOffset: {x: 0.1042, y: 0.1042, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Item
+  spawnSortOrder: 5
+  soulRepairAmount: 0
+  treeDamage: 1
+  rockDamage: 1
+  toolTier: 0
+  floor: 0
+  canRotate: 0
+  health: 8
+  overrideBuildDist: 3.5
+  interactable: 0
+  interactBoxSize: 1.5
+  interactAction: interact
+  exclusiveInteract: 0
+  noShrinkItem: 0
+  rockTile: 0
+  TileType: 0
+  floorStepSound:
+    sounds:
+    - {fileID: 0}
+    - {fileID: 0}
+    pitchRange: {x: 0.9, y: 1.05}
+    ice: 0
+  tileStates:
+  - tileSprite: {fileID: 0}
+    tileColliderIndex: 0
+    sortLayerName: Item
+    sortOrder: 3
+  growthTicks: {x: 0, y: 0}
+  wateredTicks: {x: 0, y: 0}
+  wateredAdditionalGrowth: 2
+  growthStages: []
+  resetGrowthWhenCollected: 0
+  tileDealDamage: 0
+  tileDamage: 4
+  tileKnockback: 3
+  tileDeathMessage: died
+  overrideBuildPreviewSprite: {fileID: 21300000, guid: 02fc089a3d9623e418e370fc0d28087a,
+    type: 3}
+  onlyPlaceOnTiles: []
+  onlyPlaceOnGroundTiles: []
+  onlyPlaceAtPositions: []
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  reactorFuel: 0
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 0}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet: []
+  armorMitigationPercent: 0
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 0
+  uniqueRepairMultiplier: 1
+  ignoreDurabilityModifiers: 1
+  charmStatsChanged: 00000000
+  charmStatsChangedAmount: 00000000
+  charmEffect: 
+  resourceTrackerItem: {fileID: 0}

@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 5872cb554e13f36409bf99b8c25ef98a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Item: {instanceID: 0}
+  - sprite: {instanceID: 0}
+  - sprite2: {instanceID: 0}
+  - indicatorPrefab: {instanceID: 0}
+  - fullIndicatorPrefab: {fileID: 8977244552713913493, guid: b92f5b48716fdb94f83bc4be66c2d78f,
+      type: 3}
+  - indicatorInstance: {instanceID: 0}
+  - rb: {instanceID: 0}
+  - view: {instanceID: 0}
+  - transformView: {instanceID: 0}
+  - pickupHitbox: {instanceID: 0}
+  - Merge: {instanceID: 0}
+  - soulItem: {instanceID: 0}
+  - customPickupSound: {instanceID: 0}
+  - radarSound: {instanceID: 0}
+  - farmCropTile: {instanceID: 0}
+  - unlitOutlineMat: {fileID: -876546973899608171, guid: 216b53115155eb04c9479a3ed4869ab3,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

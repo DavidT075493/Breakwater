@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Spear of Attunement
+  m_EditorClassIdentifier: Assembly-CSharp::recipe
+  Ingredients:
+  - Item: {fileID: 11400000, guid: acc321686360c7b44886afcf55d51e81, type: 2}
+    count: 1
+  - Item: {fileID: 11400000, guid: da41e3e4674fbfb4da2167c6a62d8015, type: 2}
+    count: 1
+  - Item: {fileID: 11400000, guid: 1743aae4eb2af3b488dc365b8120620f, type: 2}
+    count: 1
+  - Item: {fileID: 11400000, guid: 1e03ed8982f10ed4da43fb060bf0b491, type: 2}
+    count: 1
+  - Item: {fileID: 11400000, guid: 4bb6a8584a4055b4cad9e043781de407, type: 2}
+    count: 1
+  result:
+    Item: {fileID: 11400000, guid: ee81dcbd29ffbd740b1c9792ba676343, type: 2}
+    count: 1
+  priority: 22
+  disableRecipe: 0
+  obfuscateDescription: 1

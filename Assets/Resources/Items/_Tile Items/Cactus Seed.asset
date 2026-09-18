@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Cactus Seed
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: 21300000, guid: 80ef35d7c0d3dc0459419d8d8ed52ddd, type: 3}
+  naturalSpawnSprite: {fileID: 0}
+  naturalSpawnInvisible: 0
+  itemId: prickly_pear_seeds
+  displayName: Prickly Pear Seeds
+  desc: plant it on farmland in sand
+  matOverride: {fileID: 0}
+  unlitWhenDropped: 0
+  type: 2
+  overrideRecipeLocation: 1
+  overrideRecipeItemType: 16
+  hitboxIndex: 0
+  mouseSpeed: 8
+  damage: 1
+  damageVariance: 0
+  damageNumColor: {r: 1, g: 0, b: 0, a: 1}
+  deathMessage: was killed by /p1 using /item
+  knockback: 5
+  knockbackTime: 0.1
+  overrideSwingSound: {fileID: 0}
+  maxStackSize: 50
+  throwForce: 7.5
+  holdOffset: {x: 0, y: 0, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Item
+  naturalSpawnFlipX: 0
+  spawnSortOrder: 5
+  soulRepairAmount: 0
+  treeDamage: 1
+  rockDamage: 1
+  toolTier: 0
+  maxDurability: 1
+  usesDurability: 0
+  durabilityEmptyItem: {fileID: 0}
+  durabilityBarColor: {r: 0.2, g: 1, b: 0, a: 1}
+  durabilityName: Durability
+  twoHanded: 0
+  scytheAnimation: 0
+  trailThicknessMult: 1
+  trailColor: {r: 1, g: 1, b: 1, a: 1}
+  disableSwordAnim: 0
+  usesTier: 0
+  tierWeights: 05000000060000000400000002000000
+  toolModifierPool: []
+  repairWith: {fileID: 0}
+  repairAmount: 0
+  isRepairMaterial: 0
+  maxTierModifier: 
+  flippedSprite: {fileID: 0}
+  floor: 0
+  canRotate: 0
+  health: 14
+  overrideBuildDist: -1
+  interactable: 0
+  interactBoxSize: 2
+  interactAction: interact
+  exclusiveInteract: 0
+  allowOnBoat: 0
+  boatTileOffset: {x: 0, y: 0}
+  rockTile: 0
+  TileType: 12
+  floorStepSound:
+    sounds:
+    - {fileID: 0}
+    - {fileID: 0}
+    pitchRange: {x: 0.9, y: 1.05}
+    ice: 0
+  tileStates:
+  - tileSprite: {fileID: -30976405, guid: 0985c2a3ac53e15458fff560b8f768ef, type: 3}
+    tileColliderIndex: 8
+    sortLayerName: Item
+    sortOrder: 3
+  growthTicks: {x: 150, y: 250}
+  wateredTicks: {x: 180, y: 220}
+  wateredAdditionalGrowth: 1
+  growthStages:
+  - sprite: {fileID: -4364356836984362502, guid: 1bb373af3f8d868409050106314212cf,
+      type: 3}
+    Item: {fileID: 0}
+    colliderIndex: 8
+    spriteYOffset: 0
+    sortingLayer: Item
+    sortingOrder: 3
+    itemAmount: {x: 0, y: 0}
+  - sprite: {fileID: -4916100302411572119, guid: 1bb373af3f8d868409050106314212cf,
+      type: 3}
+    Item: {fileID: 0}
+    colliderIndex: 9
+    spriteYOffset: 0
+    sortingLayer: Player
+    sortingOrder: 10
+    itemAmount: {x: 0, y: 0}
+  - sprite: {fileID: 1494501856323254987, guid: 1bb373af3f8d868409050106314212cf,
+      type: 3}
+    Item: {fileID: 11400000, guid: ce024dde4388a774f90ebd320dd507ff, type: 2}
+    colliderIndex: 9
+    spriteYOffset: 0
+    sortingLayer: Player
+    sortingOrder: 10
+    itemAmount: {x: 1, y: 1}
+  resetGrowthWhenCollected: 0
+  tileDealDamage: 1
+  tileDamage: 5
+  tileKnockback: 3
+  tileDeathMessage: experienced a workplace hazard
+  overrideBuildPreviewSprite: {fileID: -4364356836984362502, guid: 1bb373af3f8d868409050106314212cf,
+    type: 3}
+  onlyPlaceOnTiles:
+  - {fileID: 11400000, guid: 5cae77d36a8406643bcf8b245ee40b32, type: 2}
+  onlyPlaceOnGroundTiles:
+  - {fileID: 11400000, guid: b63ca645b576b234da0ffc042d287b32, type: 2}
+  - {fileID: 11400000, guid: 1cdc7e1ab5698774cb5c3392b819793a, type: 2}
+  onlyPlaceAtPositions: []
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  reactorFuel: 0
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 0}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet: []
+  armorMitigationPercent: 0
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 0
+  uniqueRepairMultiplier: 1
+  ignoreDurabilityModifiers: 0
+  obfuscateRecipeDesc: 0
+  charmStatsChanged: 00000000
+  charmStatsChangedAmount: 00000000
+  charmEffect: 
+  resourceTrackerItem: {fileID: 11400000, guid: ce024dde4388a774f90ebd320dd507ff,
+    type: 2}

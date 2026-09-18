@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Cactus Thorns
+  m_EditorClassIdentifier: Assembly-CSharp::recipe
+  Ingredients:
+  - Item: {fileID: 11400000, guid: 9c3a73047665eb547a2ec97a116724c5, type: 2}
+    count: 20
+  - Item: {fileID: 11400000, guid: f71049c9d01b06d42b74b561c36c681f, type: 2}
+    count: 10
+  - Item: {fileID: 11400000, guid: 2ee4a173813fe2243aec8321ce7d9fde, type: 2}
+    count: 2
+  result:
+    Item: {fileID: 11400000, guid: 7ea46284d628efd4d950a5777abe0094, type: 2}
+    count: 1
+  priority: 1
+  disableRecipe: 0

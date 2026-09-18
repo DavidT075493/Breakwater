@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14027502d04161a459e89638c209e4fd, type: 3}
+  m_Name: w5 Final
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyWaveSet
+  waves:
+  - enemies:
+    - {fileID: 8233920053777991952, guid: 083e702db8a67544b98a83198b855d95, type: 3}
+    - {fileID: 8233920053777991952, guid: 43eec28070a9a2743bc2c11ed4037125, type: 3}
+    enemyCounts: 0500000002000000
+  - enemies:
+    - {fileID: 8233920053777991952, guid: ca88589f0f64b144da7448f5af9f7ebd, type: 3}
+    - {fileID: 8233920053777991952, guid: 083e702db8a67544b98a83198b855d95, type: 3}
+    enemyCounts: 0300000004000000
+  - enemies:
+    - {fileID: 8233920053777991952, guid: 095a5078fe23c314b81c6dbcf16346c7, type: 3}
+    - {fileID: 8233920053777991952, guid: 43eec28070a9a2743bc2c11ed4037125, type: 3}
+    enemyCounts: 0400000002000000
+  - enemies:
+    - {fileID: 8233920053777991952, guid: 095a5078fe23c314b81c6dbcf16346c7, type: 3}
+    - {fileID: 8233920053777991952, guid: 43eec28070a9a2743bc2c11ed4037125, type: 3}
+    - {fileID: 8233920053777991952, guid: 3470bddb897307c4795c6dad9cf9108e, type: 3}
+    - {fileID: 8233920053777991952, guid: f9d855bd2ba5dd842a656a8b5fcfea21, type: 3}
+    - {fileID: 8233920053777991952, guid: ef29fa06028d1124ebfc3155c3fe0fc8, type: 3}
+    enemyCounts: 0100000002000000020000000100000002000000

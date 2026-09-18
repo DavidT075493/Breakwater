@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2abb930bdb6bc6047b85d27848789c76, type: 3}
+  m_Name: Mods Armor
+  m_EditorClassIdentifier: Assembly-CSharp::ToolModifierGroup
+  modifiers:
+  - displayName: Protection
+    id: prot
+    percentMod: 8
+    percentPerTier: 4
+  - displayName: Max Stamina
+    id: stam
+    percentMod: 5
+    percentPerTier: 5
+  - displayName: Knockback Resistance
+    id: knock
+    percentMod: 20
+    percentPerTier: 10
+  - displayName: Move Speed
+    id: speed
+    percentMod: 2
+    percentPerTier: 1
+  negativeModifiers:
+  - displayName: Protection
+    id: prot
+    percentMod: -10
+    percentPerTier: 0
+  - displayName: Max Stamina
+    id: stam
+    percentMod: -10
+    percentPerTier: 0
+  - displayName: Knockback Resistance
+    id: knock
+    percentMod: -10
+    percentPerTier: 0
+  - displayName: Move Speed
+    id: speed
+    percentMod: -4
+    percentPerTier: 1

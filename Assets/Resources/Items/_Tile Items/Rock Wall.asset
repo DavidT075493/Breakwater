@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Rock Wall
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: 21300000, guid: b21678adafdcabb41a93cb4708dc4f7d, type: 3}
+  naturalSpawnSprite: {fileID: 0}
+  naturalSpawnInvisible: 0
+  itemId: rock_wall
+  displayName: Rock Wall
+  desc: keeps the monsters out even better
+  matOverride: {fileID: 0}
+  type: 2
+  overrideRecipeLocation: 0
+  overrideRecipeItemType: 0
+  hitboxIndex: 0
+  mouseSpeed: 8
+  damage: 1
+  knockback: 5
+  knockbackTime: 0.1
+  maxDurability: 1
+  usesDurability: 0
+  durabilityEmptyItem: {fileID: 0}
+  durabilityBarColor: {r: 0.2, g: 1, b: 0, a: 1}
+  durabilityName: Durability
+  twoHanded: 0
+  overrideSwingSound: {fileID: 0}
+  maxStackSize: 50
+  throwForce: 7.5
+  holdOffset: {x: 0.104165, y: 0.145835, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Item
+  spawnSortOrder: 5
+  treeDamage: 1
+  rockDamage: 1
+  toolTier: 0
+  floor: 0
+  canRotate: 1
+  health: 24
+  overrideBuildDist: -1
+  interactable: 0
+  interactBoxSize: 2
+  interactAction: interact
+  exclusiveInteract: 0
+  noShrinkItem: 1
+  rockTile: 1
+  TileType: 0
+  floorStepSound:
+    sounds:
+    - {fileID: 0}
+    - {fileID: 0}
+    pitchRange: {x: 0.9, y: 1.05}
+  tileStates:
+  - tileSprite: {fileID: -1958338501, guid: 90aa43c722ba383488d45291eced4684, type: 3}
+    tileColliderIndex: 1
+    sortLayerName: Item
+    sortOrder: 4
+  - tileSprite: {fileID: 1071558526, guid: 90aa43c722ba383488d45291eced4684, type: 3}
+    tileColliderIndex: 2
+    sortLayerName: Item
+    sortOrder: 4
+  - tileSprite: {fileID: 1876252188, guid: 90aa43c722ba383488d45291eced4684, type: 3}
+    tileColliderIndex: 3
+    sortLayerName: Item
+    sortOrder: 4
+  growthTicks: {x: 0, y: 0}
+  wateredTicks: {x: 0, y: 0}
+  wateredAdditionalGrowth: 2
+  growthStages: []
+  resetGrowthWhenCollected: 0
+  tileDealDamage: 0
+  tileDamage: 4
+  tileKnockback: 3
+  tileDeathMessage: died
+  overrideBuildPreviewSprite: {fileID: 0}
+  onlyPlaceOnTiles: []
+  onlyPlaceOnGroundTiles: []
+  onlyPlaceAtPositions: []
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  reactorFuel: 0
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 0}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet: []
+  armorMitigationPercent: 0
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 0

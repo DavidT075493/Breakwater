@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa41e13f16a059542b7ee0620275a9aa, type: 3}
+  m_Name: Loot D1
+  m_EditorClassIdentifier: Assembly-CSharp::LootTable
+  lootEntries:
+  - item: {fileID: 11400000, guid: 568464e8ef96c70439f0a667cfecbee0, type: 2}
+    altItems: []
+    rarityWeight: 9
+    onePerChest: 0
+    minCount: 1
+    maxCount: 3
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: bfadc8db2841c7a43a10b88c07862e7c, type: 2}
+    altItems: []
+    rarityWeight: 25
+    onePerChest: 0
+    minCount: 1
+    maxCount: 2
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 4fd4e1c128c8f8d4c87e34cfcebf38e6, type: 2}
+    altItems: []
+    rarityWeight: 10
+    onePerChest: 0
+    minCount: 1
+    maxCount: 3
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 3707f34b5e1f6ee43a0a1bfc8744f27e, type: 2}
+    altItems: []
+    rarityWeight: 8
+    onePerChest: 0
+    minCount: 3
+    maxCount: 6
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 57a7d73c594dd5d40a57531cedd03777, type: 2}
+    altItems: []
+    rarityWeight: 3
+    onePerChest: 1
+    minCount: 1
+    maxCount: 1
+    minDurability: 1
+    maxDurability: 1
+  - item: {fileID: 11400000, guid: 5cae77d36a8406643bcf8b245ee40b32, type: 2}
+    altItems: []
+    rarityWeight: 9
+    onePerChest: 1
+    minCount: 1
+    maxCount: 1
+    minDurability: 0.8
+    maxDurability: 0.95
+  - item: {fileID: 11400000, guid: f97c116fc19391949a66e762a8f6a42f, type: 2}
+    altItems:
+    - {fileID: 11400000, guid: bd633065c796c3041bee4e67125f8995, type: 2}
+    - {fileID: 11400000, guid: 6bc6f7db71ffe5444b4a755aa5d341b9, type: 2}
+    rarityWeight: 9
+    onePerChest: 0
+    minCount: 1
+    maxCount: 1
+    minDurability: 0.75
+    maxDurability: 0.95
+  minRolls: 7
+  maxRolls: 12

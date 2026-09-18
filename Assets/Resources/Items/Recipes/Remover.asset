@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Remover
+  m_EditorClassIdentifier: 
+  Ingredients:
+  - Item: {fileID: 11400000, guid: 5a0886c2dbba13e45aa6bdb233e1eaf2, type: 2}
+    count: 2
+  - Item: {fileID: 11400000, guid: 6f2537fd56ca3c54a911ea258f5393c6, type: 2}
+    count: 2
+  result:
+    Item: {fileID: 11400000, guid: 7f1fd22b84439e8418f38d42dee76d39, type: 2}
+    count: 1
+  priority: 0
+  disableRecipe: 0

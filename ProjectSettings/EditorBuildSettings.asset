@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: ec3f9acf053caec46aad63a232ecd57e
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: b606575db3efdae46b6370a32beabbeb
+  - enabled: 1
+    path: Assets/Scenes/overworld.unity
+    guid: fd0a6f159b2ae074fbef05276ed4a950
+  - enabled: 1
+    path: Assets/Scenes/ending.unity
+    guid: 650397ea0bab52442b4d49dd843bbd12
+  - enabled: 0
+    path: Assets/Scenes/test.unity
+    guid: 1856a2a9a559e7148a516f34f430701d
+  m_configObjects:
+    com.unity.adaptivePerformance.basic.provider_settings: {fileID: 11400000, guid: c4133f4ed86189549a2a56d77475fd28, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: cbba95ee1edc3e5448ef5f58c5eee601, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 084e2f55878d0ec49bcf7abc8c2b1acf, type: 2}
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}

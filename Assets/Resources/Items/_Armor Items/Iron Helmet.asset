@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Iron Helmet
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: 21300000, guid: 2091ec80c8f9e7b42abf08e980a920ee, type: 3}
+  naturalSpawnSprite: {fileID: 0}
+  naturalSpawnInvisible: 0
+  itemId: iron_helmet
+  displayName: Iron Helmet
+  desc: it has a soft cloth interior
+  matOverride: {fileID: 0}
+  unlitWhenDropped: 0
+  type: 5
+  overrideRecipeLocation: 0
+  overrideRecipeItemType: 0
+  hitboxIndex: 0
+  mouseSpeed: 8
+  damage: 1
+  damageVariance: 0
+  damageNumColor: {r: 1, g: 0, b: 0, a: 1}
+  deathMessage: was killed by /p1 using /item
+  knockback: 5
+  knockbackTime: 0.1
+  overrideSwingSound: {fileID: 0}
+  maxStackSize: 1
+  throwForce: 7.5
+  holdOffset: {x: 0.0625, y: 0.104, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Item
+  spawnSortOrder: 5
+  soulRepairAmount: 0
+  treeDamage: 1
+  rockDamage: 1
+  toolTier: 0
+  maxDurability: 100
+  usesDurability: 1
+  durabilityEmptyItem: {fileID: 0}
+  durabilityBarColor: {r: 0.2, g: 1, b: 0, a: 1}
+  durabilityName: Durability
+  twoHanded: 0
+  trailThicknessMult: 1
+  trailColor: {r: 1, g: 1, b: 1, a: 1}
+  disableSwordAnim: 0
+  usesTier: 1
+  tierWeights: 06000000050000000400000002000000
+  toolModifierPool:
+  - {fileID: 11400000, guid: b11cb674026b26b47bfb2cf2acf9fcf6, type: 2}
+  - {fileID: 11400000, guid: c9178249c9ab5de4ab1cda7bdf22cb66, type: 2}
+  repairWith: {fileID: 11400000, guid: 568464e8ef96c70439f0a667cfecbee0, type: 2}
+  repairAmount: 30
+  isRepairMaterial: 0
+  floor: 0
+  canRotate: 0
+  health: 8
+  overrideBuildDist: -1
+  interactable: 0
+  interactBoxSize: 2
+  interactAction: interact
+  exclusiveInteract: 0
+  allowOnBoat: 0
+  boatTileOffset: {x: 0, y: 0}
+  rockTile: 0
+  TileType: 0
+  floorStepSound:
+    sounds:
+    - {fileID: 0}
+    - {fileID: 0}
+    pitchRange: {x: 0.9, y: 1.05}
+    ice: 0
+  tileStates:
+  - tileSprite: {fileID: 0}
+    tileColliderIndex: 0
+    sortLayerName: Item
+    sortOrder: 3
+  growthTicks: {x: 0, y: 0}
+  wateredTicks: {x: 0, y: 0}
+  wateredAdditionalGrowth: 2
+  growthStages: []
+  resetGrowthWhenCollected: 0
+  tileDealDamage: 0
+  tileDamage: 4
+  tileKnockback: 3
+  tileDeathMessage: died
+  overrideBuildPreviewSprite: {fileID: 0}
+  onlyPlaceOnTiles: []
+  onlyPlaceOnGroundTiles: []
+  onlyPlaceAtPositions: []
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  reactorFuel: 0
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 0}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet:
+  - armorSprites:
+    - {fileID: -1344496113, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: -1809730327, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: -839778751, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: 1646560718, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: 1864981833, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: 603261102, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: -525308620, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: -564604971, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: 723056067, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: 1714611392, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    - {fileID: -1595433998, guid: 59fb493524405344eb2d11ffa154a606, type: 3}
+    materialOverride: {fileID: 0}
+  - armorSprites:
+    - {fileID: 1337045040, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: 2055457823, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: 1789831890, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: -2030280211, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: -2059140757, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: 2120798587, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: -1826066656, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: -891764515, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: -533895781, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: 850072698, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    - {fileID: 1459298486, guid: 8e597e40c1779ff4799908034d3f1431, type: 3}
+    materialOverride: {fileID: 0}
+  - armorSprites:
+    - {fileID: 1260529472, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: -358271331, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: 282392732, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: -1208386367, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: 571072142, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: -584575888, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: -1769894555, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: 2018273069, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: 563459767, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: 403281183, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    - {fileID: 958895547, guid: 305cc830875fe434588d6e62addb3132, type: 3}
+    materialOverride: {fileID: 0}
+  - armorSprites:
+    - {fileID: 891932290, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: 35762375, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: -1345254801, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: 1922432530, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: 733073755, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: 774658785, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: 1743607935, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: -1130329515, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: -586299126, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: 1346797586, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    - {fileID: 1083832032, guid: 5c43f2e85a7201847bdfa3a7b258719d, type: 3}
+    materialOverride: {fileID: 0}
+  - armorSprites:
+    - {fileID: 7599257226376050233, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: -4856691406371819607, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: 2951179014200965167, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: 6148085988623169495, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: 4918288361070432223, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: -7611996821909274370, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: -3676410529897360120, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: 8480553678109123247, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: 7417316590689099595, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: -7774451055150147583, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    - {fileID: 6267775347421849326, guid: 5ea303a2f03c05c4fb1c62b543b3467f, type: 3}
+    materialOverride: {fileID: 0}
+  - armorSprites:
+    - {fileID: 2536033005447300678, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: -1131898450957483858, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: -5038623278531662113, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: -5264681889222976280, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: 5035182911576188735, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: 5423817105816280619, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: -5298861716533574366, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: 4850656292652839350, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: -7012533565063480089, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: 5394657838354963242, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    - {fileID: 8571620235401931584, guid: e7930ba7267d538409b34e112328db78, type: 3}
+    materialOverride: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  armorMitigationPercent: 9
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 0
+  uniqueRepairMultiplier: 1
+  ignoreDurabilityModifiers: 0
+  obfuscateRecipeDesc: 0
+  charmStatsChanged: 00000000
+  charmStatsChangedAmount: 00000000
+  charmEffect: 
+  resourceTrackerItem: {fileID: 0}

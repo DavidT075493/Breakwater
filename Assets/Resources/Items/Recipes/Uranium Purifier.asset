@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Uranium Purifier
+  m_EditorClassIdentifier: 
+  Ingredients:
+  - Item: {fileID: 11400000, guid: 568464e8ef96c70439f0a667cfecbee0, type: 2}
+    count: 6
+  - Item: {fileID: 11400000, guid: 6f2537fd56ca3c54a911ea258f5393c6, type: 2}
+    count: 5
+  - Item: {fileID: 11400000, guid: d6b40b14fa990bb43978ff67b3899b01, type: 2}
+    count: 1
+  result:
+    Item: {fileID: 11400000, guid: 689789e73b1185e40a622eb5855273a6, type: 2}
+    count: 1
+  priority: -3
+  disableRecipe: 0

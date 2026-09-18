@@ -1,0 +1,974 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2907780523658304269
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1343071508131687012, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: skinIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.323
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687018, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508131687019, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_Name
+      value: Player 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343071508425935245, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1644944644, guid: 484a62d395c3b2d4c89f49782cf30eb5,
+        type: 3}
+    - target: {fileID: 1343071508425935282, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 56c3ec462ce0e3444820e2fd87a162d5,
+        type: 2}
+    - target: {fileID: 1343071509193919075, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2427a10ae63142f4799da8a6a54ece40,
+        type: 3}
+    - target: {fileID: 1739883735041102182, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2427a10ae63142f4799da8a6a54ece40,
+        type: 3}
+    - target: {fileID: 2484054012112828185, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: Flags
+      value: 262145
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484054012112828185, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: SortKey
+      value: 2388575428
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484054012112828185, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484054012112828185, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: NestedObjects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484054012112828185, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NestedObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1158424065861408826}
+    - target: {fileID: 2484054012112828185, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: NetworkedBehaviours.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484054012112828185, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4249443740899098051}
+    - target: {fileID: 2484054012112828185, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8788778398791614056}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 4249443739736494445}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: TotalWords
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: StateHashes.Array.size
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: TriggerHashes.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[1]'
+      value: -911041033
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[2]'
+      value: -1426901463
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[3]'
+      value: -1358454234
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[4]'
+      value: -837870498
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[5]'
+      value: 1604190766
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[6]'
+      value: 1050066006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[7]'
+      value: 1352590537
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[8]'
+      value: 237049209
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[9]'
+      value: 1473699972
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[10]'
+      value: 920542972
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[11]'
+      value: 1738747831
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[12]'
+      value: 958193159
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[13]'
+      value: -104032189
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[14]'
+      value: -1106534562
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[15]'
+      value: -256766494
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[16]'
+      value: -1217066241
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[17]'
+      value: 315435380
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[18]'
+      value: 1282595012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[19]'
+      value: 1003325336
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[20]'
+      value: 1702000168
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[21]'
+      value: -832882862
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[22]'
+      value: -1239744366
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[23]'
+      value: -1823793445
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[24]'
+      value: -839585941
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[25]'
+      value: -1034355736
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[26]'
+      value: -2052679264
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[27]'
+      value: 348961426
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[28]'
+      value: -537676049
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[29]'
+      value: 296804463
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[30]'
+      value: 1326387679
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[31]'
+      value: -1019676291
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[32]'
+      value: 119490908
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[33]'
+      value: 419165257
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[34]'
+      value: 1577151920
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[35]'
+      value: -776441607
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[36]'
+      value: -1330590079
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[37]'
+      value: -1619704372
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[38]'
+      value: -661969020
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[39]'
+      value: -1271864068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[40]'
+      value: 1880577245
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[41]'
+      value: -1135264278
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[42]'
+      value: -581074030
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[43]'
+      value: -931731670
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[44]'
+      value: 55176023
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[1]'
+      value: 1865160710
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[2]'
+      value: -1243841335
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[3]'
+      value: 1704767148
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[4]'
+      value: 891690766
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[5]'
+      value: 551000158
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[6]'
+      value: 506932706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[7]'
+      value: -546350840
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[8]'
+      value: 867364020
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[9]'
+      value: -725559873
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055788839621165879, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: Flags
+      value: 262146
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055788839621165879, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: SortKey
+      value: 4113094033
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055788839621165879, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: NetworkedBehaviours.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871375102257816803, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.943
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: Flags
+      value: 262146
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: SortKey
+      value: 1630183611
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: NestedObjects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NestedObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1158424065861408826}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NestedObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1158424065861408826}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: NetworkedBehaviours.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4249443740865851753}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[1]'
+      value: 
+      objectReference: {fileID: 5669302037725913098}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[2]'
+      value: 
+      objectReference: {fileID: 911403288311761622}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[3]'
+      value: 
+      objectReference: {fileID: 6321228269102486341}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[4]'
+      value: 
+      objectReference: {fileID: 4181341457655150924}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[5]'
+      value: 
+      objectReference: {fileID: 4249443740899098051}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[6]'
+      value: 
+      objectReference: {fileID: 8788778398791614056}
+    - target: {fileID: 6241667570645215626, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[7]'
+      value: 
+      objectReference: {fileID: 98742340376404131}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 4249443739736494445}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: TotalWords
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: StateHashes.Array.size
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: TriggerHashes.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[1]'
+      value: -911041033
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[2]'
+      value: -1426901463
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[3]'
+      value: -1358454234
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[4]'
+      value: -837870498
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[5]'
+      value: 1604190766
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[6]'
+      value: 1050066006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[7]'
+      value: 1352590537
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[8]'
+      value: 237049209
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[9]'
+      value: 1473699972
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[10]'
+      value: 920542972
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[11]'
+      value: 1738747831
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[12]'
+      value: 958193159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[13]'
+      value: -104032189
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[14]'
+      value: -1106534562
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[15]'
+      value: -256766494
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[16]'
+      value: -1217066241
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[17]'
+      value: 315435380
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[18]'
+      value: 1282595012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[19]'
+      value: 1003325336
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[20]'
+      value: 1702000168
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[21]'
+      value: -832882862
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[22]'
+      value: -1239744366
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[23]'
+      value: -1823793445
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[24]'
+      value: -839585941
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[25]'
+      value: -1034355736
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[26]'
+      value: -2052679264
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[27]'
+      value: 348961426
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[28]'
+      value: -537676049
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[29]'
+      value: 296804463
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[30]'
+      value: 1326387679
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[31]'
+      value: -1019676291
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[32]'
+      value: 119490908
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[1]'
+      value: 551000158
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[2]'
+      value: -1243841335
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[3]'
+      value: 1865160710
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[4]'
+      value: 1704767148
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[5]'
+      value: 891690766
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[6]'
+      value: 506932706
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_SynchronizeParameters.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[7].Name
+      value: Disable Hit
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284334566559889586, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[7].Type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 4249443740053066431}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: TotalWords
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: StateHashes.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: TriggerHashes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[1]'
+      value: 96244280
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[2]'
+      value: -1168386403
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[3]'
+      value: 1409899896
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[4]'
+      value: -336717347
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[5]'
+      value: 2070477431
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[6]'
+      value: -997212462
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[7]'
+      value: -1514436536
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[8]'
+      value: -994888144
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[9]'
+      value: 1473528989
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[10]'
+      value: -399310792
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[11]'
+      value: 1711792446
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[12]'
+      value: 570000246
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[13]'
+      value: 1123482157
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[14]'
+      value: -49168760
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[15]'
+      value: -299934997
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'StateHashes.Array.data[16]'
+      value: -1680394235
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+        type: 3}
+      propertyPath: 'TriggerHashes.Array.data[1]'
+      value: 995914302
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4447e52b78bd5254a860f6439b81b93f, type: 3}
+--- !u!114 &98742340376404131 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2955574496030817198, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506319458, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fusion.Runtime.dll::Fusion.NetworkMecanimAnimator
+--- !u!114 &911403288311761622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2665979851642622427, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd84cbcaf5f51d4c8682a9a50fe2fc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1158424065861408826 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4055788839621165879, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4181341457655150924 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1323382211077333569, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c81cbc3ca9e0c5249a0f793e412377ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &4249443739736494445 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1343071509193919072, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4249443740053066431 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1343071508425935282, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4249443740865851753 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1343071508131687012, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93dd95dc31102f944a1c14f7564772ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4249443740899098051 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1343071508032906958, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775a0f8e15d58a746be54ccea88a6415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5669302037725913098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7419657092044094215, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e8ac06b5e7fd74b9aa94ce21f7c380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6321228269102486341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9215210793575974984, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506319458, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8788778398791614056 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5882406559189460325, guid: 4447e52b78bd5254a860f6439b81b93f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907780523658304269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c254ef1406b2458d687731b4db938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

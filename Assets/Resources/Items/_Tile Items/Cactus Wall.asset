@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Cactus Wall
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: 21300000, guid: b63a26fa95526c54ab5ba7c8805fa363, type: 3}
+  naturalSpawnSprite: {fileID: 0}
+  itemId: cactus_wall
+  displayName: Cactus Wall
+  desc: its like barbed wire but better
+  matOverride: {fileID: 0}
+  type: 2
+  hitboxIndex: 0
+  mouseSpeed: 8
+  damage: 1
+  knockback: 5
+  knockbackTime: 0.1
+  maxDurability: 1
+  usesDurability: 0
+  twoHanded: 0
+  overrideSwingSound: {fileID: 0}
+  maxStackSize: 50
+  throwForce: 7.5
+  holdOffset: {x: 0, y: 0.145835, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Item
+  spawnSortOrder: 5
+  treeDamage: 1
+  rockDamage: 1
+  toolTier: 0
+  floor: 0
+  canRotate: 1
+  health: 20
+  interactable: 0
+  interactBoxSize: 2
+  interactAction: interact
+  exclusiveInteract: 0
+  noShrinkItem: 1
+  rockTile: 0
+  TileType: 0
+  floorStepSound:
+    sounds:
+    - {fileID: 0}
+    - {fileID: 0}
+    pitchRange: {x: 0.9, y: 1.05}
+  tileStates:
+  - tileSprite: {fileID: -617103318, guid: 5d9f3afadf52a9f478c20c59305b6755, type: 3}
+    tileColliderIndex: 1
+    sortLayerName: Item
+    sortOrder: 4
+  - tileSprite: {fileID: -13664994, guid: 5d9f3afadf52a9f478c20c59305b6755, type: 3}
+    tileColliderIndex: 2
+    sortLayerName: Item
+    sortOrder: 4
+  - tileSprite: {fileID: -151590831, guid: 5d9f3afadf52a9f478c20c59305b6755, type: 3}
+    tileColliderIndex: 3
+    sortLayerName: Item
+    sortOrder: 4
+  tileDealDamage: 1
+  tileDamage: 5
+  tileKnockback: 4
+  tileDeathMessage: was stabbed to death by a cactus wall
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 0}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet: []
+  armorMitigationPercent: 0
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 0

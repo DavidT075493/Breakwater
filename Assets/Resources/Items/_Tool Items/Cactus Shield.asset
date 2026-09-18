@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Cactus Shield
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: 21300000, guid: 7acb35546e27fc940b0629c0783413a9, type: 3}
+  naturalSpawnSprite: {fileID: 0}
+  naturalSpawnInvisible: 0
+  itemId: cactus_shield
+  displayName: Cactus Shield
+  desc: hold right click to block. Left click to perform a shield bash.
+  matOverride: {fileID: 2100000, guid: fc4fe3871c2e9c64ba31170bafe4ee95, type: 2}
+  unlitWhenDropped: 0
+  type: 1
+  overrideRecipeLocation: 0
+  overrideRecipeItemType: 0
+  hitboxIndex: 5
+  mouseSpeed: 3.5
+  damage: 19
+  damageVariance: 2
+  damageNumColor: {r: 0.017287532, g: 0.6320754, b: 0, a: 1}
+  deathMessage: was bashed by /p1 using /item
+  knockback: 13
+  knockbackTime: 0.32
+  overrideSwingSound: {fileID: 8300000, guid: 2cee8c865dd39574e847da598dd11f31, type: 3}
+  maxStackSize: 1
+  throwForce: 11
+  holdOffset: {x: 0.2083, y: 0.02083, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Player
+  naturalSpawnFlipX: 0
+  spawnSortOrder: 11
+  soulRepairAmount: 0
+  treeDamage: 3
+  rockDamage: 3
+  toolTier: 1
+  maxDurability: 800
+  usesDurability: 1
+  durabilityEmptyItem: {fileID: 0}
+  durabilityBarColor: {r: 0.2, g: 1, b: 0, a: 1}
+  durabilityName: Durability
+  twoHanded: 0
+  scytheAnimation: 0
+  trailThicknessMult: 1
+  trailColor: {r: 1, g: 1, b: 1, a: 1}
+  disableSwordAnim: 0
+  usesTier: 1
+  tierWeights: 05000000060000000400000002000000i
+  toolModifierPool:
+  - {fileID: 11400000, guid: c9178249c9ab5de4ab1cda7bdf22cb66, type: 2}
+  - {fileID: 11400000, guid: a959d0ba747ebd64cbb0842e22670781, type: 2}
+  repairWith: {fileID: 11400000, guid: 9c3a73047665eb547a2ec97a116724c5, type: 2}
+  repairAmount: 30
+  isRepairMaterial: 0
+  maxTierModifier: Block projectiles to reflect them
+  flippedSprite: {fileID: 0}
+  floor: 0
+  canRotate: 0
+  health: 8
+  overrideBuildDist: -1
+  interactable: 0
+  interactBoxSize: 2
+  interactAction: interact
+  exclusiveInteract: 0
+  allowOnBoat: 0
+  boatTileOffset: {x: 0, y: 0}
+  rockTile: 0
+  TileType: 0
+  floorStepSound:
+    sounds:
+    - {fileID: 0}
+    - {fileID: 0}
+    pitchRange: {x: 0.9, y: 1.05}
+    ice: 0
+  tileStates:
+  - tileSprite: {fileID: 0}
+    tileColliderIndex: 0
+    sortLayerName: Item
+    sortOrder: 3
+  growthTicks: {x: 0, y: 0}
+  wateredTicks: {x: 0, y: 0}
+  wateredAdditionalGrowth: 2
+  growthStages: []
+  resetGrowthWhenCollected: 0
+  tileDealDamage: 0
+  tileDamage: 4
+  tileKnockback: 3
+  tileDeathMessage: died
+  overrideBuildPreviewSprite: {fileID: 0}
+  onlyPlaceOnTiles: []
+  onlyPlaceOnGroundTiles: []
+  onlyPlaceAtPositions: []
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  reactorFuel: 0
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 0}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet: []
+  armorMitigationPercent: 0
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 8
+  uniqueRepairMultiplier: 2
+  ignoreDurabilityModifiers: 0
+  obfuscateRecipeDesc: 0
+  charmStatsChanged: 00000000i
+  charmStatsChangedAmount: 00000000i
+  charmEffect: 
+  resourceTrackerItem: {fileID: 0}

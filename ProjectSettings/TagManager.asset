@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Water Hitbox
+  - Sword
+  - Particles
+  - Water
+  - Item
+  - Item Merging
+  - Main Player
+  - Weapon Hitbox
+  - Other Player Weapon Hitbox
+  - Floor
+  - Bullet
+  - Boss
+  - Campfire
+  - Fahrenheit Explosion
+  - Heat Source
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Item
+  - Own Weapon Hitbox
+  - Main Player
+  - Other Weapon Hitbox
+  - Player Collision
+  - Ocean Rock
+  - Boat Top
+  - Boat Water Collision
+  - Projectile
+  - Floor Tile
+  - Item Merging
+  - Flying Enemy
+  - Tree
+  - Player Collision in Boat
+  - Boat
+  - Goo Puddle
+  - Boat Rock Collision
+  - Wall Tile
+  - Item Collision
+  - Enemy Collision
+  - Enemy Leap Collision
+  - Heat Source
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Item
+    uniqueID: 2472805101
+    locked: 0
+  - name: Player
+    uniqueID: 3820491891
+    locked: 0
+  - name: UI
+    uniqueID: 3008544447
+    locked: 0
+  - name: UI 2
+    uniqueID: 69824681
+    locked: 0
+  - name: Camera Effects
+    uniqueID: 1328124193
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7
+  m_MigratedRenderPipelines: []

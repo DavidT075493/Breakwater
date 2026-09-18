@@ -1,0 +1,6 @@
+<linker>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="Unity.Tilemaps.Experimental.RuleEntityIdTile" preserve="all"/>
+    <type fullname="Unity.Tilemaps.Experimental.EntityIdTileBase" preserve="all"/>
+  </assembly>
+</linker>

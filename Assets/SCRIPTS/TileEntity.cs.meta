@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 929093c26ecba7d4abd5bbe61bf4e580
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Item: {instanceID: 0}
+  - tile: {instanceID: 0}
+  - view: {instanceID: 0}
+  - signText: {instanceID: 0}
+  - hinge1: {instanceID: 0}
+  - hinge2: {instanceID: 0}
+  - childDoor: {instanceID: 0}
+  - parentDoor: {instanceID: 0}
+  - indicatorPrefab: {fileID: 8977244552713913493, guid: 06bc2f9dea9c1d34e9a1f5754c930a3c,
+      type: 3}
+  - doorOpenClip: {fileID: 8300000, guid: 520b693393e4a7f4e965d5061aed0872, type: 3}
+  - doorCloseClip: {fileID: 8300000, guid: ef5271bdc9641e0438e46057c763b545, type: 3}
+  - fuelItem: {instanceID: 0}
+  - ingredientItem: {instanceID: 0}
+  - resultItem: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

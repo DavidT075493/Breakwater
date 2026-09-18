@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Tungsten Greaves
+  m_EditorClassIdentifier: 
+  Ingredients:
+  - Item: {fileID: 11400000, guid: 357a18654a624d847ac8d780faa9e4bd, type: 2}
+    count: 4
+  - Item: {fileID: 11400000, guid: 4fd4e1c128c8f8d4c87e34cfcebf38e6, type: 2}
+    count: 2
+  result:
+    Item: {fileID: 11400000, guid: e68f3a415eeccbf43b4508ea673d4465, type: 2}
+    count: 1
+  priority: 9
+  disableRecipe: 0

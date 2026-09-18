@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 23a4656d83daf424492cf4115b0e6c32
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - sprite: {instanceID: 0}
+  - shadowSprite: {instanceID: 0}
+  - view: {instanceID: 0}
+  - camShake: {instanceID: 0}
+  - hitParticles: {instanceID: 0}
+  - path: {instanceID: 0}
+  - anim: {instanceID: 0}
+  - deathSound: {instanceID: 0}
+  - enemy: {instanceID: 0}
+  - lootItem: {fileID: 11400000, guid: e86bd720b78356b448b9623dc34eb168, type: 2}
+  - uniqueLootItem: {instanceID: 0}
+  - itemPrefab: {fileID: 8664656701461586749, guid: 65c50b3cbff117f41ab1e828850d1300,
+      type: 3}
+  - ambientSound: {instanceID: 0}
+  - boss: {instanceID: 0}
+  - Light: {instanceID: 0}
+  - damageNum: {fileID: 6621395536448730335, guid: 9cf1b39c9c1602148b6a1980b41d4540,
+      type: 3}
+  - frozenSprite: {instanceID: 0}
+  - stunPs: {instanceID: 0}
+  - bindingChainLine: {instanceID: 0}
+  - boundDirectlyTo: {instanceID: 0}
+  - soulBreakerHeartPrefab: {fileID: 4300261716707093990, guid: 604eff2ec20e9f64dbff14a286112103,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Springcap Spores
+  m_EditorClassIdentifier: 
+  Ingredients:
+  - Item: {fileID: 11400000, guid: 23cf8a9fb98d3f542870315b80cacbfa, type: 2}
+    count: 1
+  result:
+    Item: {fileID: 11400000, guid: 7da705d4336154242b123f680974ed5b, type: 2}
+    count: 1
+  priority: 4
+  disableRecipe: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Respawn Tether
+  m_EditorClassIdentifier: 
+  Ingredients:
+  - Item: {fileID: 11400000, guid: 6f2537fd56ca3c54a911ea258f5393c6, type: 2}
+    count: 3
+  - Item: {fileID: 11400000, guid: f71049c9d01b06d42b74b561c36c681f, type: 2}
+    count: 5
+  - Item: {fileID: 11400000, guid: e86bd720b78356b448b9623dc34eb168, type: 2}
+    count: 15
+  result:
+    Item: {fileID: 11400000, guid: 933e0bca693c7d240918328bb68d171b, type: 2}
+    count: 1
+  priority: 3
+  disableRecipe: 0

@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Respawn Platform
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: 21300000, guid: bff0e210842a40d478d60bb307d16caf, type: 3}
+  naturalSpawnSprite: {fileID: 0}
+  naturalSpawnInvisible: 0
+  itemId: soul_anchor
+  displayName: Soul Anchor
+  desc: Respawn here when coming back from the dead. You can recall to your current
+    active soul anchor with a soul tether.
+  matOverride: {fileID: 0}
+  unlitWhenDropped: 0
+  type: 2
+  overrideRecipeLocation: 1
+  overrideRecipeItemType: 0
+  hitboxIndex: 0
+  mouseSpeed: 8
+  damage: 1
+  damageVariance: 0
+  damageNumColor: {r: 1, g: 0, b: 0, a: 1}
+  deathMessage: was killed by /p1 using /item
+  knockback: 5
+  knockbackTime: 0.1
+  maxDurability: 1
+  usesDurability: 0
+  durabilityEmptyItem: {fileID: 0}
+  durabilityBarColor: {r: 0.2, g: 1, b: 0, a: 1}
+  durabilityName: Durability
+  twoHanded: 0
+  trailThicknessMult: 1
+  trailColor: {r: 1, g: 1, b: 1, a: 1}
+  disableSwordAnim: 0
+  overrideSwingSound: {fileID: 0}
+  maxStackSize: 50
+  throwForce: 7.5
+  holdOffset: {x: 0, y: 0.145835, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Item
+  spawnSortOrder: 5
+  soulRepairAmount: 0
+  treeDamage: 1
+  rockDamage: 1
+  toolTier: 0
+  floor: 0
+  canRotate: 0
+  health: 16
+  overrideBuildDist: -1
+  interactable: 1
+  interactBoxSize: 0.95
+  interactAction: Set Spawn
+  exclusiveInteract: 1
+  allowOnBoat: 1
+  boatTileOffset: {x: 0, y: -0.33333334}
+  rockTile: 0
+  TileType: 10
+  floorStepSound:
+    sounds:
+    - {fileID: 8300000, guid: dae4b6dd7f8388a4e900042ae70f7bd0, type: 3}
+    - {fileID: 8300000, guid: dae4b6dd7f8388a4e900042ae70f7bd0, type: 3}
+    pitchRange: {x: 0.9, y: 1.1}
+    ice: 0
+  tileStates:
+  - tileSprite: {fileID: 2090563050, guid: 3bacaf7846f6c924ba73e3847add50de, type: 3}
+    tileColliderIndex: 8
+    sortLayerName: Item
+    sortOrder: 4
+  growthTicks: {x: 0, y: 0}
+  wateredTicks: {x: 0, y: 0}
+  wateredAdditionalGrowth: 2
+  growthStages: []
+  resetGrowthWhenCollected: 0
+  tileDealDamage: 0
+  tileDamage: 4
+  tileKnockback: 3
+  tileDeathMessage: died
+  overrideBuildPreviewSprite: {fileID: 0}
+  onlyPlaceOnTiles: []
+  onlyPlaceOnGroundTiles: []
+  onlyPlaceAtPositions: []
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  reactorFuel: 0
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 1319495129, guid: 3bacaf7846f6c924ba73e3847add50de,
+    type: 3}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet: []
+  armorMitigationPercent: 0
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 0
+  uniqueRepairMultiplier: 1
+  ignoreDurabilityModifiers: 0
+  obfuscateRecipeDesc: 0
+  charmStatsChanged: 00000000
+  charmStatsChangedAmount: 00000000
+  charmEffect: 
+  resourceTrackerItem: {fileID: 0}

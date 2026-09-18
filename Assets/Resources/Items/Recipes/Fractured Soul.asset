@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Fractured Soul
+  m_EditorClassIdentifier: Assembly-CSharp::recipe
+  Ingredients:
+  - Item: {fileID: 11400000, guid: e86bd720b78356b448b9623dc34eb168, type: 2}
+    count: 30
+  - Item: {fileID: 11400000, guid: 6ef2784a728b33a49b27fdb7b5ed9ff9, type: 2}
+    count: 2
+  - Item: {fileID: 11400000, guid: ea1e2e5883259e846b3bb452e2d54a83, type: 2}
+    count: 3
+  result:
+    Item: {fileID: 11400000, guid: ec8cb9069294c194db38db40957fcb46, type: 2}
+    count: 1
+  priority: 2
+  disableRecipe: 0

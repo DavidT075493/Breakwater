@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b59a598ea930274297f5e4cc365faad, type: 3}
+  m_Name: Gavel
+  m_EditorClassIdentifier: 
+  overworldSprite: {fileID: 21300000, guid: 577ebb6312d3c764f9cee589247537b2, type: 3}
+  naturalSpawnSprite: {fileID: 0}
+  naturalSpawnInvisible: 0
+  itemId: gavel
+  displayName: Sentencing Gavel
+  desc: Hit a player 10 times to sentence them to death
+  matOverride: {fileID: 0}
+  unlitWhenDropped: 0
+  type: 1
+  overrideRecipeLocation: 0
+  overrideRecipeItemType: 0
+  hitboxIndex: 1
+  mouseSpeed: 3
+  damage: 12
+  damageVariance: 0
+  damageNumColor: {r: 0.38431376, g: 0.18039216, b: 0.043137256, a: 1}
+  deathMessage: was found guilty by /p1
+  knockback: 10
+  knockbackTime: 0.1
+  overrideSwingSound: {fileID: 8300000, guid: 68411c0c6cadb274d9d18bf32a3f1827, type: 3}
+  maxStackSize: 1
+  throwForce: 11
+  holdOffset: {x: 0, y: 0.1875, z: 0}
+  holdRotation: 0
+  spawnWithGameObj: {fileID: 0}
+  spawnSortLayerName: Item
+  spawnSortOrder: 5
+  soulRepairAmount: 0
+  treeDamage: 3
+  rockDamage: 5
+  toolTier: 0
+  maxDurability: 10
+  usesDurability: 1
+  durabilityEmptyItem: {fileID: 11400000}
+  durabilityBarColor: {r: 1, g: 0.85797274, b: 0, a: 1}
+  durabilityName: Hits
+  twoHanded: 0
+  trailThicknessMult: 0.75
+  trailColor: {r: 0.9528302, g: 0.8266478, b: 0, a: 0.7294118}
+  disableSwordAnim: 1
+  usesTier: 1
+  tierWeights: 00000000000000000000000001000000
+  toolModifierPool: []
+  repairWith: {fileID: 0}
+  repairAmount: 0
+  isRepairMaterial: 0
+  maxTierModifier: 
+  floor: 0
+  canRotate: 0
+  health: 8
+  overrideBuildDist: -1
+  interactable: 0
+  interactBoxSize: 2
+  interactAction: interact
+  exclusiveInteract: 0
+  allowOnBoat: 0
+  boatTileOffset: {x: 0, y: 0}
+  rockTile: 0
+  TileType: 0
+  floorStepSound:
+    sounds:
+    - {fileID: 0}
+    - {fileID: 0}
+    pitchRange: {x: 0.9, y: 1.05}
+    ice: 0
+  tileStates:
+  - tileSprite: {fileID: 0}
+    tileColliderIndex: 0
+    sortLayerName: Item
+    sortOrder: 3
+  growthTicks: {x: 0, y: 0}
+  wateredTicks: {x: 0, y: 0}
+  wateredAdditionalGrowth: 2
+  growthStages: []
+  resetGrowthWhenCollected: 0
+  tileDealDamage: 0
+  tileDamage: 4
+  tileKnockback: 3
+  tileDeathMessage: died
+  overrideBuildPreviewSprite: {fileID: 0}
+  onlyPlaceOnTiles: []
+  onlyPlaceOnGroundTiles: []
+  onlyPlaceAtPositions: []
+  fuel: 0
+  onlyInPurifier: 0
+  fuelSmeltTime: 15
+  reactorFuel: 0
+  smeltResult: {fileID: 0}
+  alternateTileSprite: {fileID: 0}
+  eatTime: 2
+  restoreHealth: 3
+  overrideEatCompleteSound: {fileID: 0}
+  armorSpriteSheet: []
+  armorMitigationPercent: 0
+  catalystEffect: 0
+  catalystEffectStrength: 0
+  catalystEffectTime: 0
+  catalystSound: {fileID: 0}
+  uniqueType: 9
+  uniqueRepairMultiplier: 1
+  ignoreDurabilityModifiers: 1
+  obfuscateRecipeDesc: 0
+  charmStatsChanged: 00000000
+  charmStatsChangedAmount: 00000000
+  charmEffect: 
+  resourceTrackerItem: {fileID: 0}

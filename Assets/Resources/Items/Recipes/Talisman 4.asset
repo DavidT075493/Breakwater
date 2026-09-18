@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3af208f77d8c49a31760320f323be, type: 3}
+  m_Name: Talisman 4
+  m_EditorClassIdentifier: Assembly-CSharp::recipe
+  Ingredients:
+  - Item: {fileID: 11400000, guid: 568464e8ef96c70439f0a667cfecbee0, type: 2}
+    count: 6
+  - Item: {fileID: 11400000, guid: 635a06f6b3955204c91162fb111a0ad2, type: 2}
+    count: 2
+  - Item: {fileID: 11400000, guid: e86bd720b78356b448b9623dc34eb168, type: 2}
+    count: 15
+  result:
+    Item: {fileID: 11400000, guid: 8275bc0c58bd4cc458666e2584bd0fa4, type: 2}
+    count: 1
+  priority: 0
+  disableRecipe: 0
